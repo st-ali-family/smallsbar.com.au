@@ -97,8 +97,8 @@ textarea {
    ========================================================================== */
 
 #siteIntro { background-color:#000; min-height:700px; position:relative; }
-#siteIntro h1 { background:url(../img/smalls-logo.png) no-repeat 0 0; display:block; height:200px; margin:-100px 0 0 -100px; position:absolute; top:50%; left:50%; width:200px; z-index:10; }
-.backgroundsize #siteIntro h1 { background-image:url(../img/smalls-logo-large.png); background-size:contain; }
+#siteIntro h1 { background:url(../i/smalls-logo.png) no-repeat 0 0; display:block; height:200px; margin:-100px 0 0 -100px; position:absolute; top:50%; left:50%; width:200px; z-index:10; }
+.backgroundsize #siteIntro h1 { background-image:url(../i/smalls-logo-large.png); background-size:contain; }
 #siteIntro ul { list-style:none; height:100%; margin:0; padding:0; position:relative; width:100%; z-index:1; }
 #siteIntro ul li { background-position:center center; background-size:cover; height:100%; width:100%; }
 
@@ -122,11 +122,11 @@ textarea {
 #socialLinks { margin-top:2em; }
 #socialLinks .socialLink { border-bottom:none; color:#000; display:block; height:40px; line-height:42px; margin-bottom:1em; padding-left:50px; position:relative; font-size:1.25em; }
 #socialLinks .socialLink i { background-color:#000; border:2px solid #000; color:#fff; display:block; font-size:1em; height:40px; line-height:38px; position:absolute; top:0; left:0; text-align:center; width:40px;
-  border-radius: 50%; 
+  border-radius: 50%;
   background-clip: border-box;
-  -webkit-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
-     -moz-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
-       -o-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
+  -webkit-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
+     -moz-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
+       -o-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
           transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
 }
 #socialLinks .socialLink:hover i { background-color:#fff; color:#000; }
@@ -146,9 +146,9 @@ p:first-child { margin-top:0; }
    Links
    ========================================================================== */
 a { border-bottom:1px dotted #000; color:#000; text-decoration:none;
-  -webkit-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
-     -moz-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
-       -o-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
+  -webkit-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
+     -moz-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
+       -o-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
           transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
 }
 a:hover,
@@ -163,9 +163,9 @@ a:focus { border-bottom:none; color:#000; text-decoration:none; }
    ========================================================================== */
 
 input, textarea, select, button.button, input.button { background-color:#fff; border:2px solid #000; color:#000; cursor:pointer; margin:0; padding:15px; outline:none; text-shadow:none; width:100%;
-  -webkit-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
-     -moz-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
-       -o-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out; 
+  -webkit-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
+     -moz-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
+       -o-transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
           transition: color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out;
 -webkit-appearance: none;
     border-radius: 0;
@@ -174,7 +174,7 @@ textarea { height:130px; }
 input:focus, textarea:focus { background-color:#000; color:#fff; outline:none; }
 
 select { padding-right:30px;
-	background:#fff url(../img/select-arrow.png) no-repeat center right;
+	background:#fff url(../i/select-arrow.png) no-repeat center right;
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
@@ -270,9 +270,9 @@ a.button:hover { background-color:#000; color:#fff; }
 .flex-direction-nav { height:0; list-style:none; margin:0; padding:0; width:100%; }
 .flex-direction-nav li { height:0; width:100%; }
 .flex-direction-nav li a { background-color:transparent; border:1px solid #000; color:#000; display:block; height:100%; position:absolute; top:0; overflow:hidden; width:51px; text-align:center; z-index:50;
-  -webkit-transition: background-color 0.25s ease-out, width 0.25s ease-out; 
-     -moz-transition: background-color 0.25s ease-out, width 0.25s ease-out; 
-       -o-transition: background-color 0.25s ease-out, width 0.25s ease-out; 
+  -webkit-transition: background-color 0.25s ease-out, width 0.25s ease-out;
+     -moz-transition: background-color 0.25s ease-out, width 0.25s ease-out;
+       -o-transition: background-color 0.25s ease-out, width 0.25s ease-out;
           transition: background-color 0.25s ease-out, width 0.25s ease-out;
 }
 .flex-direction-nav li a i { margin-top:-0.5em; position:absolute; top:50%; }
@@ -435,7 +435,7 @@ website:    http://www.burocratik.com
 .generatedcontent.csstransforms .fancybox-close i { display:none; }
 .generatedcontent.csstransforms .fancybox-close:before,
 .generatedcontent.csstransforms .fancybox-close:after { background-color:#000; content:''; display:block; height:1px; margin-left:-11px; position:absolute; left:50%; top:50%; width:22px;
-  -webkit-transition: background-color 0.25s ease-out; 
+  -webkit-transition: background-color 0.25s ease-out;
      -moz-transition: background-color 0.25s ease-out;
        -o-transition: background-color 0.25s ease-out;
           transition: background-color 0.25s ease-out;
@@ -443,14 +443,14 @@ website:    http://www.burocratik.com
 .generatedcontent.csstransforms .fancybox-close:hover:before,
 .generatedcontent.csstransforms .fancybox-close:hover:after { background-color:#fff; }
 .generatedcontent.csstransforms .fancybox-close:before {
-  -webkit-transform: rotate(45deg); 
-      -ms-transform: rotate(45deg); 
-          transform: rotate(45deg); 
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .generatedcontent.csstransforms .fancybox-close:after {
-  -webkit-transform: rotate(-45deg); 
-      -ms-transform: rotate(-45deg); 
-          transform: rotate(-45deg); 
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .fancybox-nav {
@@ -481,9 +481,9 @@ website:    http://www.burocratik.com
 	margin-top: -25px;
 	cursor: pointer;
 	z-index: 8040;
-  -webkit-transition: color 0.25s ease-out, background-color 0.25s ease-out; 
-     -moz-transition: color 0.25s ease-out, background-color 0.25s ease-out; 
-       -o-transition: color 0.25s ease-out, background-color 0.25s ease-out; 
+  -webkit-transition: color 0.25s ease-out, background-color 0.25s ease-out;
+     -moz-transition: color 0.25s ease-out, background-color 0.25s ease-out;
+       -o-transition: color 0.25s ease-out, background-color 0.25s ease-out;
           transition: color 0.25s ease-out, background-color 0.25s ease-out;
 }
 
@@ -571,7 +571,7 @@ website:    http://www.burocratik.com
 
 .fancybox-title-float-wrap .child {
 	display: block;
-	
+
 }
 
 .fancybox-title-outside-wrap {
