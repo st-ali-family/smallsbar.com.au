@@ -256,16 +256,38 @@ window["_gaUserPrefs"] = {
                     <div class="mailingList">
                         <h3>Contact Us (Formspree)</h3>
                         <form method="POST" action="https://formspree.io/stali@stoqe.com">
-                            <input class="" type="text" name="_gotcha" style="display:none" />
-                            <input class="input_left" type="email" name="firstName" placeholder="First Name *">
-                            <input class="input_right" type="email" name="lastName" placeholder="Last Name *">
-                            <select type="email" name="lastName" placeholder="Last Name *">
+
+                        <input class="" type="text" name="_gotcha" style="display:none" />
+                        <input type="hidden" name="_cc" value="test@stoqe.com" />
+                        <input type="hidden" name="_next" value="//smallsbar.com.au/?" />
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <input class="" type="text" name="firstName" placeholder="First Name *">
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <input class="" type="text" name="lastName" placeholder="Last Name *">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <input type="text" name="_replyto" placeholder="Your email *" />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <input type="text" name="_replyto" placeholder="Phone Number *" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12">
+                            <select type="text" name="subject" placeholder="Subject *">
                             <option value="" selected="selected" class="gf_placeholder">Subject *</option>
                             <option value="General Enquiry">General Enquiry</option>
                             <option value="Bookings">Bookings</option><option value="Functions">Functions</option>
                             </select>
+                            <br><br>
                             <textarea name="message" placeholder="Your message"></textarea>
-                            <button type="submit">Send</button>
+                            <br><br>
+                            <button class="gform_button button" type="submit">Send</button>
                         </form>
 
                         <!-- Begin MailChimp Signup Form -->
