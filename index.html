@@ -630,40 +630,7 @@ window["_gaUserPrefs"] = {
     <script type="text/javascript" src="./assets/jquery.json.min.js"></script>
     <script type="text/javascript" src="./assets/gravityforms.min.js"></script>
     <script type="text/javascript" src="./assets/placeholders.jquery.min.js"></script>
-    <script>
-    var _gaq = [
-        ['_setAccount', 'UA-XXXXX-X'],
-        ['_trackPageview']
-    ];
-    (function(d, t) {
-        var g = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-        g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g, s)
-    }(document, 'script'));
 
-    //event listener: DOM ready
-    function addLoadEvent(func) {
-        var oldonload = window.onload;
-        if (typeof window.onload != 'function') {
-            window.onload = func;
-        } else {
-            window.onload = function() {
-                oldonload();
-                func();
-            }
-        }
-    };
-    //call plugin function after DOM ready
-    //addLoadEvent(
-      //  outdatedBrowser({
-        //    bgColor: '#f25648',
-         //   color: '#ffffff',
-         //   lowerThan: 'transform',
-         //   languagePath: 'https://smallsbar.com.au/wp-content/themes/smallbar/js/lang/en.html'
-        //})
-    //);
-    </script>
     <!--[if lt IE 8]>
         <link href="https://smallsbar.com.au/wp-content/themes/smallbar/css/bootstrap-ie7.css" rel="stylesheet">
     <![endif]-->
