@@ -98,7 +98,7 @@ textarea {
 
 #siteIntro { background-color:#000; min-height:700px; position:relative; }
 #siteIntro h1 { background:url(../i/smalls-logo.png) no-repeat 0 0; display:block; height:200px; margin:-100px 0 0 -100px; position:absolute; top:50%; left:50%; width:200px; z-index:10; }
-.backgroundsize #siteIntro h1 { background-image:url(../i/smalls-logo-large.png); background-size:contain; }
+.backgroundsize #siteIntro h1 { background-image:url(../i/smalls-logo.png); background-size:contain; }
 #siteIntro ul { list-style:none; height:100%; margin:0; padding:0; position:relative; width:100%; z-index:1; }
 #siteIntro ul li { background-position:center center; background-size:cover; height:100%; width:100%; }
 
